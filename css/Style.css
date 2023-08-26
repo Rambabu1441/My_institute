@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+.login-register
+{
+    background: rgb(0,20,100);
+    text-align: right;
+}
+.login-register ul
+{
+    display:inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.login-register ul li
+{
+	width: 170px;
+	margin:5px;
+	padding:5px;
+}
+ 
+.login-register ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+.login-register ul li:hover
+{
+    background-color: #048a09;
+    border-radius: px;   
+}
+.login-register .fas
+{
+	margin-right:8px;
+}
+.menu-bar
+{
+    background: #05bff7;
+    text-align: center;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul
+{
+    margin: 15px;
+   
+}
+.menu-bar ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+	width: 160px;
+	margin:6px;
+	padding:5px;
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: #0000ff;
+    height: 35px;
+	
+    
+}
+.sub-menu-1
+{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:#0000ff;
+	margin-top:15px;
+	margin-left:-10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul 
+{
+	display:block;
+	margin:5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width:140px;
+	padding:5px;
+	border-bottom:1px dotted #fff;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+.menu-bar .fas
+{
+	margin-right:8px;
+}
+#f1
+{
+font-family:blacksword;
+font-size: 45px;
+color:white;
+border:1px black;
+text-shadow: -1px 1px 0 #000,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+
+
+background-color:#05bff7;
+opacity: 0.4;
+}
+.logo
+{
+	position:relative;
+	top:-150px;
+	height:80px;
+}
